@@ -65,17 +65,3 @@ git clone https://github.com/your-username/heart-disease-prediction.git
 cd heart-disease-prediction
 sample = [[57, 1, 2, 140, 241, 0, 1, 123, 1, 0.2, 2, 0, 2]]
 pred = model.predict(sample)
-if pred[0] == 1:
-    print("Heart disease risk: ✅ Yes, chance of coming Heart Disease")
-else:
-    print("Heart disease risk: ❌ No, chance of coming Heart Disease")
-Confusion Matrix:
-[[26  5]
- [ 4 26]]
-
-Classification Report:
-              precision    recall  f1-score   support
-           0       0.87      0.84      0.85        31
-           1       0.84      0.87      0.85        30
-
-Accuracy: 85%
